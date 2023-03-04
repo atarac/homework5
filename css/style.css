@@ -167,12 +167,12 @@ hamburger
   width: 100%;
   height: 100vh;
   background: rgba(0, 0, 0, 0.5);
-  opacity: 0;
+  display: none;
 }
 
 .cover.active {
   z-index: 997;
-  opacity: 1;
+  display: block;
 }
 
 /* --------------------
@@ -305,7 +305,7 @@ contact
   height: 68px;
 }
 
-.contact-right .button button{
+.contact-right .button button {
   margin-top: 24px;
   width: 200px;
   height: 45px;
@@ -313,6 +313,12 @@ contact
   text-align: center;
   font-size: 14px;
   color: #FFF;
+}
+
+.contact-right .button button:hover {
+  cursor: pointer;
+  background: #FFF;
+  color: #121212;
 }
 
 /* --------------------
