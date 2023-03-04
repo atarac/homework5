@@ -196,7 +196,7 @@ pickup
 /* --------------------
 feauture
 -------------------- */
-#feauture {
+#feature {
   width: 100%;
   max-width: 1240px;
   padding: 0 16px;
@@ -263,6 +263,7 @@ contact
 #contact .inner {
   width: 100%;
   max-width: 1240px;
+  margin: 0 auto;
   padding: 0 16px;
   display: flex;
   justify-content: space-between;
